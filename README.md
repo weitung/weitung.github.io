@@ -8,12 +8,12 @@ Welcome to the Gados Documentation. In this documentation, we will talk about th
 This documentation is organized into the following sections
 *	Installation
 *	Quick Start
+	*	Calibration
+		*	Camera Calibration
 	*	Run Tests
 		*	Move the machine with keyboard
 		*	QR code position test
 		*	XYZ forbidden area test 	
-	*	Calibration
-		*	Camera Calibration
 *	Gados ROS Central Control Package
 	* 	Transform
 	*	Topics

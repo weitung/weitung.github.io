@@ -19,7 +19,7 @@ If you want to connect to an existing container. Please use the following comman
 docker exec -it gados-docker bash
 ```
 ## Run Tests for version 1.1
-For the v 1.1 version, we are able to run extensive test on the entire system. Please run the following command before running any tests described in the subsection. 
+For the v 1.1 version, we are able to run extensive test on the entire system. Please run the following command before running any tests described in the [subsection](http://gados-doc.gadgethi.com.tw/032-run-tests.html). 
 ```
 roslaunch central_control firmware.launch
 ```
