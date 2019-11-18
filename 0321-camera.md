@@ -1,7 +1,7 @@
 ---
 title: Camera Calibration and Initialization
 parent: Calibration
-has_children: false
+grand_parent: Quick Start
 nav_order: 1
 ---
 
