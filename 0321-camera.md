@@ -6,7 +6,7 @@ nav_order: 1
 ---
 
 # Camera Calibration and Initialization
-In this section, we are going to talk about camera calibration processes. In this section, we will extensively use the GUI display to 
+In this section, we are going to talk about camera calibration processes. In this section, we will extensively use the GUI display to calibrate the camera and check whether we get the correct image. For more information about the GUI display, please check out the Debug section of the documentation for more information [here](http://gados-doc.gadgethi.com.tw/072-gui.html).
 
 ### Use USB webcams on ROS
 In this section, we will explain the ways to use USB webcams with Gados ROS. First of all, connect your usb cam to your computer and check your device name in:
@@ -14,7 +14,7 @@ In this section, we will explain the ways to use USB webcams with Gados ROS. Fir
 ls /dev
 ```
 Make sure to change the device name in the ```camera_test.launch``` file. 
-Then, if it's a new camera, make sure to generate a new calibration file (camera_info) for this camera by following the calibration instruction in the following [page](http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration). The following are some important note and the main procedures.
+Then, if it's a new camera, make sure to generate a new calibration file (camera_info) for this camera by following the calibration instruction in this [page](http://wiki.ros.org/camera_calibration/Tutorials/MonocularCalibration). The following are some important note and the main procedures.
 * First of all, run the ```camera_test.launch``` file
 * Then, run the following command to start the calibration process. Make sure to measure the dimension of your grid before doing this. The following is just an example.
 ```
