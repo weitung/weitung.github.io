@@ -15,6 +15,13 @@ rosrun central_control move_douhua_machine_relative bowl_area
 ```
 To give commands, just enter the number of axis that you are trying to control and type t or g to increase or decrease the steps for that specific number of slider. 
 
+### Update on 1118
+The above command can only move in a fixed amount of length, which is 5 cm. A new version of this function can be ran with two arguments where the second one is optional. If you don't feed in anything then it will default to 5cm. However, if you feed in the second argument, which is the amount of steps per increase/decrease. Run the following script:
+```
+rosrun central_control move_douhua_machine_relative bowl_area 10
+```
+This moves the slider 10 steps each time.
+
 ## QR Code Position Test
 To run this test, first, you should prepare [ar marker 1](http://wiki.ros.org/ar_track_alvar?action=AttachFile&do=view&target=markers0to8.png), print it out, enter the correct dimension of the edge of the qr code to the camera_test.launch file in centimeters. Then, make sure the camera image size is set and that the camera is calibrated. Please check out [this section](http://gados-doc.gadgethi.com.tw/032-Calibration.html) to calibrate the camera. Last, run the following commands in order after running the firmware launch file:
 ```
