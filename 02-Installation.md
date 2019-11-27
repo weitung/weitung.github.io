@@ -8,7 +8,7 @@ nav_order: 2
 To get started on Gados, many dependencies and packages are needed. However, the installation process is too complicated. Therefore, a docker image is built in this [GitHub Repository](https://github.mit.edu/weitung/docker-gados). **Only developers have access to this repository - please request on company slack to get access** The following is the installation process of docker on different platforms. 
 
 ## MAC 
-Follow this link[https://docs.docker.com/docker-for-mac/install/] and install the desktop environment and you are all set.
+Follow this [link](https://docs.docker.com/docker-for-mac/install/) and install the desktop environment and you are all set.
 
 ## LINUX
 The following is for the installation on ubuntu environment. This docker is built for ubuntu environment so this should be enough. (The different ways of forwarding usb devices).

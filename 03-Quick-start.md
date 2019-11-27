@@ -7,7 +7,7 @@ nav_order: 3
 # Quick Start
 
 ## Using the docker image
-First, download the ```gados_docker_launch.sh``` file and send the release name in as an argument (In this case, it's ```gados-springwater-v1.1``` for linux and ```gados-springwater-v1.1.mac``` for mac). This script will help pull the specific image from the docker hub and run it in the bash, forwarding usb devices. The command we will be using is:
+First, download the ```gados_docker_launch.sh``` file (ask Weitung for this file) and send the release name in as an argument (In this case, it's ```gados-springwater-v1.1``` for linux and ```gados-springwater-v1.1.mac``` for mac). This script will help pull the specific image from the docker hub and run it in the bash, forwarding usb devices. The command we will be using is:
 ```
 ./gados_docker_launch.sh gados-springwater-v1.1
 ```
