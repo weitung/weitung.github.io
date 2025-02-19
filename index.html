@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 2</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 2</small>
+			Exploratory Data Analysis
+		</h1>
+
+		<p>
+			<strong>Weitung Chen</strong> — <em>weitung@mit.edu</em>
+		</p>
+	</header>
+	<main>
+		<section>
+			<h2>Subtheme: Speculation</h2>
+			<p>I noticed that there are a lot of houses and apartments in Boston owned by corporation or private investors. I would like to dig into the data and understand more about this phenomonon and see how it impacts housing affordability. </p>
+
+			<h3>Dataset</h3>
+			<p>I used the two datasets below for my initial data exploration and analysis:</p>
+
+			<ul>
+			  <li>
+			    <strong>Corporate Ownership Rates and Owner Occupancy Rates in Boston Neighborhoods, 2004-2024</strong> – Rates of corporate ownership and owner occupancy by neighborhood in the City of Boston over 20 years. With this data, you can see which neighborhoods might be experiencing more corporations buying up properties and/or more absentee owners also buying up properties.
+			  </li>
+			  <li>
+			    <strong>Residential Sales Data in the City of Boston, 2000-2023</strong> – All residential sales transactions in the City of Boston between 2000-2023. Includes information about seller, buyer, price, location, whether the sale constitutes a “flip,” and much more.
+			  </li>
+			</ul>
+			
+			<h3>Overall Analysis Questions</h3>
+			<ol>
+				<li>How has corporate ownership changed in the Greater Boston area?</li>
+				<li>How has owner occupancy changed in the Greater Boston area?</li>
+				<li>Which neighborhoods have more corporate owners?</li>
+				<li>Which neighborhoods have lower owner occupancy (i.e. more absentee owners)?</li>
+				<li>What is the average house price in different neighborhoods in the Greater Boston area?</li>
+				<li>What price ranges of houses do corporate owners prefer?</li>
+			</ol>
+		</section>
+
+		<section>
+			<h2>Discoveries & Insights</h2>
+
+			<figure>
+		    <img src="images/1.png" alt="" style="max-width: 100%;"/>
+		    <figcaption>
+		        <b>Average Corporate Ownership Rate vs Year (2004 - 2024)</b> This shows the average corporate ownership rate over all neighborhoods in the Greater Boston Area from 2004 to 2024. As we can see, the corporate ownership rate has risen from 0.055 to 0.255 in 2024, with a huge increase during 2020 and 2021. This means that for every four houses in Boston, one house is owned by a corporation. My first exploration of the dataset focuses on the overall corporate ownership in the Boston area over the years, and we can see that it has been consistently increasing.
+		    </figcaption>
+		</figure>
+
+		<figure>
+		    <img src="images/2.png" alt="" style="max-width: 100%;"/>
+		    <figcaption>
+		        <b>Average Owner Occupancy Rate vs Year (2004 - 2024)</b> This shows the average owner occupancy rate over all neighborhoods in the Greater Boston Area from 2004 to 2024. We can see that the average owner occupancy rate has decreased over the years, although the rate of decrease is not as steep as the rate of increase in corporate ownership. The occupancy rate has dropped to around 0.38 in 2024, meaning that more than 60% of the houses are not occupied by their owners. These houses could have been bought for investment and are likely to be rented to others.
+		    </figcaption>
+		</figure>
+
+		<figure>
+		    <img src="images/3.png" alt="" style="max-width: 100%;"/>
+		    <figcaption>
+		        <b>Average Corporate Ownership Rate vs Neighborhood</b> This bar chart shows the average corporate ownership rate across different neighborhoods in the Greater Boston Area. I sorted the bars in ascending order of corporate ownership rate. As we can see, the neighborhoods toward the right side of the chart, such as South Boston Waterfront, Fenway, Longwood, and Downtown, are all close to the Boston city center. This makes sense as these houses are usually more expensive and require more cash upfront to purchase. It's interesting to see that the neighborhood with the highest corporate ownership rate has almost 40% of its houses owned by corporations.
+		    </figcaption>
+		</figure>
+
+		<figure>
+		    <img src="images/4.png" alt="" style="max-width: 100%;"/>
+		    <figcaption>
+		        <b>Average Owner Occupancy Rate vs Neighborhood</b> This bar chart shows the average owner occupancy rate across different neighborhoods in the Greater Boston Area. I sorted the bars in descending order of the owner occupancy rate. The reason for sorting in descending order is to match Figure 3 and show the neighborhoods with higher rates of absentee owners toward the right side of the chart. We can see that neighborhoods toward the right side of the bar chart are also very close to the city center and near universities and research areas where there are many students looking for housing. For example, Fenway and Allston are neighborhoods where BU/Harvard students usually prefer to find housing. Longwood and the North End are close to medical and research centers, which attract many researchers looking for housing.
+		    </figcaption>
+		</figure>
+
+		<figure>
+		    <img src="images/5.png" alt="" style="max-width: 100%;"/>
+		    <figcaption>
+		        <b>Average Corporate Ownership Rate vs Neighborhood (Spatial)</b> This map shows the average corporate ownership rate across the neighborhoods in the Greater Boston Area. The darker the color, the higher the average corporate ownership rate. I filtered the data to include only the years from 2020 to 2024 to reflect the average corporate ownership in recent years. We can see that the neighborhoods with darker colors are concentrated near the Boston city center. The further away from the city center, the lower the corporate ownership rate.
+		    </figcaption>
+		</figure>
+
+		<figure>
+		    <img src="images/6.png" alt="" style="max-width: 100%;"/>
+		    <figcaption>
+		        <b>Average Owner Occupancy Rate vs Neighborhood (Spatial)</b> This map shows the average owner occupancy rate across the neighborhoods in the Greater Boston Area. The darker the color, the higher the average owner occupancy rate. I filtered the data to include only the years from 2020 to 2024 to reflect recent data. We can see that the further away from the city center, the higher the average owner occupancy rate, meaning that a lower percentage of houses in the suburbs have absentee owners.
+		    </figcaption>
+		</figure>
+
+		<figure>
+		    <img src="images/7.png" alt="" style="max-width: 100%;"/>
+		    <figcaption>
+		        <b>Average Price vs Neighborhood (Spatial)</b> This map shows the average price of houses across the neighborhoods in the Greater Boston Area. I wanted to investigate "What is the average house price in different neighborhoods in the Greater Boston Area?" I also filtered the data to include only data from 2020 to 2022 to reflect recent information. We can see that the closer to the city center, the higher the price of the houses. The South Boston Waterfront neighborhood even has an average housing price of $7 million.
+		    </figcaption>
+		</figure>
+
+		<figure>
+		    <img src="images/8.png" alt="" style="max-width: 100%;"/>
+		    <figcaption>
+		        <b>Average Number of Corporate and Large Investors vs Neighborhood (Spatial)</b> This map shows the Greater Boston Area, and the colors represent the number of corporate and large investors based on recent (2020 to 2022) house transaction data. The darker the color, the more houses are being bought by corporate or large investors. We can see that the Fenway area has the most houses being bought by corporate and large investors recently. Generally, the closer to the city center, the larger the number of corporate and large investors involved in house transactions.
+		    </figcaption>
+		</figure>
+
+		<figure>
+		    <img src="images/9.png" alt="" style="max-width: 100%;"/>
+		    <figcaption>
+		        <b>Average Price of Houses Bought by Corporate or Large Investors vs Neighborhood</b> This bar chart shows the average price of houses bought by corporate or large investors in the Greater Boston Area. We can see that the neighborhood with the lowest average price is South Boston, with an average price of $655,000, and the highest is the South Boston Waterfront neighborhood, with an average price approaching $100 million. We can see that the average price of houses bought by corporate or large investors is generally high, usually in the tens of millions.
+		    </figcaption>
+		</figure>
+
+		</section>
+
+		<section>
+		    <h2>Summary</h2>
+
+		    <p>Through this initial data exploration and analysis, I understand that the corporate ownership rate has been increasing over the years while the owner occupancy rate is decreasing. When we visualize this data on a map, we can see that the closer we are to the Boston city center, the more absentee owners there are (including corporations or other investors/non-owners). I also observed that the price gap between neighborhoods is very large; the most expensive can have an average of $7 million, while the lowest can have an average of several hundred thousand dollars. I also found that large investors and corporations prefer to buy more expensive houses than average. For example, the average housing price in South Boston Waterfront is $7 million, but the average price of the houses that large investors and corporations bought almost reaches $100 million. I think this initial data exploration helped me gain a better understanding of the current status of the Boston housing market and can better frame the research question for the final project.</p>
+		</section>
+	</main>
+</body>
+</html>
