@@ -12,7 +12,7 @@ profile:
     <p>Email: weitung@mit.edu</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -26,7 +26,7 @@ latest_posts:
 ---
 I am a Ph.D. student in the Signal Kinetics Lab at MIT, advised by [Prof. Fadel Adib](https://www.mit.edu/~fadel/).
 
-My research focuses on developing novel localization systems and algorithms that enable robots to sense and navigate in challenging environments. I specialize in leveraging diverse sensing modalities, such as RF, acoustics, lidar, and vision, to solve complex localization problems in GPS-denied environments.
+I specialize in developing novel localization systems and algorithms that enable robots to sense and navigate in challenging environments. My research focuses on leveraging diverse sensing modalities, such as RF, acoustics, lidar, and vision, to solve complex localization problems in GPS-denied environments.
 
 My expertise lies in robot localization, sensor-fusion, and control, with extensive experience in reinforcement learning for trajectory optimization and robot task control. I am passionate about in developing and deploying end-to-end robotic systems in real-world settings, which led me to co-found [Nexuni](https://www.nexuni.com), an AI robotics startup that brings AI-powered robotic systems to industry clients.
 
@@ -37,6 +37,6 @@ My expertise lies in robot localization, sensor-fusion, and control, with extens
 - **Reinforcement Learning for Robotics**: Developing RL-based methods for tasks like robot control, obstacle avoidance, and path planning.
 
 ## Education
-- **PhD in Electrical Engineering & Computer Science**, MIT (2023-2027 Expected)
+- **PhD in Electrical Engineering & Computer Science**, MIT (2023-Expected 2027)
 - **M.Eng. in Electrical Engineering & Computer Science**, MIT (2022-2023)
 - **B.S. in Electrical Engineering & Computer Science**, MIT (2017-2021)
