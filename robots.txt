@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.weitung.com/sitemap.xml
+Sitemap: https://weitung.github.io/sitemap.xml
