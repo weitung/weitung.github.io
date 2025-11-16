@@ -33,10 +33,10 @@ My expertise lies in robot localization, sensor-fusion, and control, with extens
 ## Research Interests
 
 - **State-of-the-art Robotic Perception & Localization**: Developing novel sensing and localization methods for robots to enable new capabilities in challenging environments.
-- **Robotic Sensor Fusion**: Developing robust autonomous systems by fusing data from diverse sensor modalities, including Vision, LiDAR, RF, and Acoustics.
+- **Sensor Fusion**: Developing robust autonomous systems by fusing data from diverse sensor modalities, including Vision, LiDAR, RF, and Acoustics.
 - **Reinforcement Learning for Robotics**: Developing RL-based methods for tasks like robot control, obstacle avoidance, and path planning.
 
 ## Education
-- **PhD in Electrical Engineering & Computer Science**, MIT (2023-Expected 2027)
+- **Ph.D. in Electrical Engineering & Computer Science**, MIT (2023-Expected 2027)
 - **M.Eng. in Electrical Engineering & Computer Science**, MIT (2022-2023)
 - **B.S. in Electrical Engineering & Computer Science**, MIT (2017-2021)

@@ -11,7 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Weitung Chen is a MIT PhD candidate specializing in robot perception, localization, and sensor fusion. Extensive experience designing and deploying autonomous systems using LiDAR, Vision, RF, and Acoustics. Proven track record in SLAM, navigation, and RL-based control from co-founding an AI robotics startup.
 footer_text: >
-  Weitung Chen | MIT EECS PhD | Robotics, Localization | Co-Founder of Nexuni
+  MIT EECS Ph.D. | Robotics, Localization | Co-Founder of Nexuni
 keywords: robotics, localization, multi-modal, wireless sensing, AI # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
